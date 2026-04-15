@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Alex Carter</title>
+  <meta
+    name="description"
+    content="Portfolio projects page template with space for project cards, videos, photography, and case studies."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="projects">
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">AC</span>
+        <span class="brand-text">Alex Carter</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="achievements.html">Achievements</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero section">
+        <div>
+          <p class="eyebrow">Projects archive</p>
+          <h1>Build a gallery that can hold case studies, videos, and photos</h1>
+        </div>
+        <p class="hero-text">
+          Each project card below can be swapped with your real work. Keep the structure and replace
+          the text, thumbnails, and links with your own portfolio items.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="filters" aria-label="Project categories">
+          <button class="filter-chip is-active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="design">Design</button>
+          <button class="filter-chip" data-filter="product">Product</button>
+          <button class="filter-chip" data-filter="media">Media</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="design">
+            <div class="media-block media-photo">Photo placeholder</div>
+            <div class="project-copy">
+              <p class="card-label">Design</p>
+              <h2>Brand system redesign</h2>
+              <p>
+                Describe the brief, your role, the tools used, and the measurable outcome or client feedback.
+              </p>
+              <ul class="meta-list">
+                <li>Role: Creative Lead</li>
+                <li>Timeline: 8 weeks</li>
+                <li>Outcome: 35% stronger engagement</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="product">
+            <div class="media-block media-video">Video placeholder</div>
+            <div class="project-copy">
+              <p class="card-label">Product</p>
+              <h2>Mobile app launch case study</h2>
+              <p>
+                Use this space for a walkthrough video, screenshots, launch metrics, and lessons learned.
+              </p>
+              <ul class="meta-list">
+                <li>Role: Product Designer</li>
+                <li>Platform: iOS / Android</li>
+                <li>Highlight: 100k sample downloads</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="media">
+            <div class="media-block media-gallery">Gallery placeholder</div>
+            <div class="project-copy">
+              <p class="card-label">Media</p>
+              <h2>Event photography collection</h2>
+              <p>
+                Perfect for visual-heavy work such as photography, exhibitions, installations, or live activations.
+              </p>
+              <ul class="meta-list">
+                <li>Format: Photo essay</li>
+                <li>Venue: Placeholder Hall</li>
+                <li>Deliverables: 120 edited images</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="product">
+            <div class="media-block media-photo">UI gallery placeholder</div>
+            <div class="project-copy">
+              <p class="card-label">Product</p>
+              <h2>Dashboard experience overhaul</h2>
+              <p>
+                Add before-and-after screenshots, process notes, stakeholder quotes, and final visual results.
+              </p>
+              <ul class="meta-list">
+                <li>Role: UX Strategist</li>
+                <li>Team: 6 collaborators</li>
+                <li>Result: Reduced support tickets</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="design">
+            <div class="media-block media-video">Campaign reel placeholder</div>
+            <div class="project-copy">
+              <p class="card-label">Design</p>
+              <h2>Campaign motion package</h2>
+              <p>
+                Embed a reel, storyboard stills, and creative direction notes for a polished showcase.
+              </p>
+              <ul class="meta-list">
+                <li>Medium: Motion graphics</li>
+                <li>Client: Placeholder Brand</li>
+                <li>Highlight: Regional campaign rollout</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="media">
+            <div class="media-block media-gallery">Portfolio gallery placeholder</div>
+            <div class="project-copy">
+              <p class="card-label">Media</p>
+              <h2>Studio documentation series</h2>
+              <p>
+                Use this for documentaries, behind-the-scenes footage, or creative process snapshots.
+              </p>
+              <ul class="meta-list">
+                <li>Type: Mixed media</li>
+                <li>Assets: Video + stills</li>
+                <li>Purpose: Portfolio storytelling</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Swap each placeholder media block with embedded videos, actual images, or linked case studies.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
