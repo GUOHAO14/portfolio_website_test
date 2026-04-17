@@ -584,10 +584,6 @@ p {
     width: 100%;
   }
 
-  h1 {
-    max-width: 10ch;
-  }
-
   .media-block {
     min-height: 190px;
   }
