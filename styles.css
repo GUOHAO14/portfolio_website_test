@@ -162,8 +162,8 @@ video {
 
 .eyebrow,
 .card-label {
-  margin: 0 0 0.75rem;
-  font-size: 0.8rem;
+  margin: 0 0 0.6rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--accent-deep);
